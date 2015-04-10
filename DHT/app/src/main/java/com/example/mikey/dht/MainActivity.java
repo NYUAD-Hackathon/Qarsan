@@ -35,7 +35,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.activity_main);
         System.setProperty("java.net.preferIPv6Addresses", "false");
         Peer master = null;
         try

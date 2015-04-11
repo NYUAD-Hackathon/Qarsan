@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6A7C3461AD949230059A8AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A7C3451AD949230059A8AB /* main.m */; };
+		A6A7C3491AD949230059A8AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A7C3481AD949230059A8AB /* AppDelegate.m */; };
+		A6A7C34C1AD949230059A8AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A7C34B1AD949230059A8AB /* ViewController.m */; };
+		A6A7C34F1AD949230059A8AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C34D1AD949230059A8AB /* Main.storyboard */; };
+		A6A7C3511AD949230059A8AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C3501AD949230059A8AB /* Images.xcassets */; };
+		A6A7C3541AD949230059A8AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C3521AD949230059A8AB /* LaunchScreen.xib */; };
+		A6A7C3601AD949230059A8AB /* QarsaniOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A7C35F1AD949230059A8AB /* QarsaniOSTests.m */; };
+		A6A7C36B1AD94E180059A8AB /* HeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A7C36A1AD94E180059A8AB /* HeaderTableViewCell.m */; };
+		A6A7C36E1AD94E220059A8AB /* NonHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A7C36D1AD94E220059A8AB /* NonHeaderTableViewCell.m */; };
+		A6A7C3701AD951930059A8AB /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A7C36F1AD951930059A8AB /* Firebase.framework */; };
+		A6A7C3731AD951F40059A8AB /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A7C3721AD951F40059A8AB /* ArticleViewController.m */; };
+		A6A7C3751AD952F30059A8AB /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A7C3741AD952F30059A8AB /* libicucore.dylib */; };
+		A6A7C3771AD952FA0059A8AB /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A7C3761AD952FA0059A8AB /* libc++.dylib */; };
+		A6A7C3791AD952FF0059A8AB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A7C3781AD952FF0059A8AB /* CFNetwork.framework */; };
+		A6A7C37B1AD953110059A8AB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A7C37A1AD953100059A8AB /* Security.framework */; };
+		A6A7C37D1AD953180059A8AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A7C37C1AD953180059A8AB /* SystemConfiguration.framework */; };
+		A6A7C3801AD9570D0059A8AB /* FirebaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A7C37F1AD9570D0059A8AB /* FirebaseManager.m */; };
+		A6A7C3821AD97FE90059A8AB /* MonacleIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C3811AD97FE90059A8AB /* MonacleIcon.jpg */; };
+		A6A7C3851AD9900B0059A8AB /* CategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A7C3841AD9900B0059A8AB /* CategoryTableViewController.m */; };
+		A6A7C38A1AD993200059A8AB /* back arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C3871AD993200059A8AB /* back arrow.png */; };
+		A6A7C38F1AD995570059A8AB /* Trending.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C38D1AD995570059A8AB /* Trending.png */; };
+		A6A7C3951AD9BDA20059A8AB /* eyepatch_olive.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C3921AD9BDA20059A8AB /* eyepatch_olive.png */; };
+		A6A7C3961AD9BDA20059A8AB /* eyepatch2_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C3931AD9BDA20059A8AB /* eyepatch2_gray.png */; };
+		A6A7C3971AD9BDA20059A8AB /* eyepatch3_red.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C3941AD9BDA20059A8AB /* eyepatch3_red.png */; };
+		A6A7C3991AD9CA230059A8AB /* Catagories.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C3981AD9CA230059A8AB /* Catagories.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6A7C35A1AD949230059A8AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A7C3381AD949230059A8AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A7C33F1AD949230059A8AB;
+			remoteInfo = QarsaniOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6A7C3401AD949230059A8AB /* QarsaniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QarsaniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A7C3441AD949230059A8AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A7C3451AD949230059A8AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6A7C3471AD949230059A8AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6A7C3481AD949230059A8AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6A7C34A1AD949230059A8AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6A7C34B1AD949230059A8AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6A7C34E1AD949230059A8AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6A7C3501AD949230059A8AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A6A7C3531AD949230059A8AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A6A7C3591AD949230059A8AB /* QarsaniOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QarsaniOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A7C35E1AD949230059A8AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A7C35F1AD949230059A8AB /* QarsaniOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QarsaniOSTests.m; sourceTree = "<group>"; };
+		A6A7C3691AD94E180059A8AB /* HeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTableViewCell.h; sourceTree = "<group>"; };
+		A6A7C36A1AD94E180059A8AB /* HeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderTableViewCell.m; sourceTree = "<group>"; };
+		A6A7C36C1AD94E220059A8AB /* NonHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonHeaderTableViewCell.h; sourceTree = "<group>"; };
+		A6A7C36D1AD94E220059A8AB /* NonHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonHeaderTableViewCell.m; sourceTree = "<group>"; };
+		A6A7C36F1AD951930059A8AB /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		A6A7C3711AD951F40059A8AB /* ArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
+		A6A7C3721AD951F40059A8AB /* ArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleViewController.m; sourceTree = "<group>"; };
+		A6A7C3741AD952F30059A8AB /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		A6A7C3761AD952FA0059A8AB /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		A6A7C3781AD952FF0059A8AB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A6A7C37A1AD953100059A8AB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A6A7C37C1AD953180059A8AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A6A7C37E1AD9570D0059A8AB /* FirebaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirebaseManager.h; sourceTree = "<group>"; };
+		A6A7C37F1AD9570D0059A8AB /* FirebaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirebaseManager.m; sourceTree = "<group>"; };
+		A6A7C3811AD97FE90059A8AB /* MonacleIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MonacleIcon.jpg; sourceTree = "<group>"; };
+		A6A7C3831AD9900B0059A8AB /* CategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTableViewController.h; sourceTree = "<group>"; };
+		A6A7C3841AD9900B0059A8AB /* CategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTableViewController.m; sourceTree = "<group>"; };
+		A6A7C3871AD993200059A8AB /* back arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back arrow.png"; sourceTree = "<group>"; };
+		A6A7C38D1AD995570059A8AB /* Trending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trending.png; sourceTree = "<group>"; };
+		A6A7C3921AD9BDA20059A8AB /* eyepatch_olive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyepatch_olive.png; sourceTree = "<group>"; };
+		A6A7C3931AD9BDA20059A8AB /* eyepatch2_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyepatch2_gray.png; sourceTree = "<group>"; };
+		A6A7C3941AD9BDA20059A8AB /* eyepatch3_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyepatch3_red.png; sourceTree = "<group>"; };
+		A6A7C3981AD9CA230059A8AB /* Catagories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Catagories.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A7C33D1AD949230059A8AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A7C37D1AD953180059A8AB /* SystemConfiguration.framework in Frameworks */,
+				A6A7C37B1AD953110059A8AB /* Security.framework in Frameworks */,
+				A6A7C3791AD952FF0059A8AB /* CFNetwork.framework in Frameworks */,
+				A6A7C3771AD952FA0059A8AB /* libc++.dylib in Frameworks */,
+				A6A7C3751AD952F30059A8AB /* libicucore.dylib in Frameworks */,
+				A6A7C3701AD951930059A8AB /* Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A7C3561AD949230059A8AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6A7C3371AD949230059A8AB = {
+			isa = PBXGroup;
+			children = (
+				A6A7C37C1AD953180059A8AB /* SystemConfiguration.framework */,
+				A6A7C37A1AD953100059A8AB /* Security.framework */,
+				A6A7C3781AD952FF0059A8AB /* CFNetwork.framework */,
+				A6A7C3761AD952FA0059A8AB /* libc++.dylib */,
+				A6A7C3741AD952F30059A8AB /* libicucore.dylib */,
+				A6A7C3421AD949230059A8AB /* QarsaniOS */,
+				A6A7C35C1AD949230059A8AB /* QarsaniOSTests */,
+				A6A7C3411AD949230059A8AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A7C3411AD949230059A8AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A7C3401AD949230059A8AB /* QarsaniOS.app */,
+				A6A7C3591AD949230059A8AB /* QarsaniOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A7C3421AD949230059A8AB /* QarsaniOS */ = {
+			isa = PBXGroup;
+			children = (
+				A6A7C3471AD949230059A8AB /* AppDelegate.h */,
+				A6A7C3481AD949230059A8AB /* AppDelegate.m */,
+				A6A7C34A1AD949230059A8AB /* ViewController.h */,
+				A6A7C34B1AD949230059A8AB /* ViewController.m */,
+				A6A7C34D1AD949230059A8AB /* Main.storyboard */,
+				A6A7C3501AD949230059A8AB /* Images.xcassets */,
+				A6A7C3521AD949230059A8AB /* LaunchScreen.xib */,
+				A6A7C3431AD949230059A8AB /* Supporting Files */,
+				A6A7C3691AD94E180059A8AB /* HeaderTableViewCell.h */,
+				A6A7C36A1AD94E180059A8AB /* HeaderTableViewCell.m */,
+				A6A7C36C1AD94E220059A8AB /* NonHeaderTableViewCell.h */,
+				A6A7C36D1AD94E220059A8AB /* NonHeaderTableViewCell.m */,
+				A6A7C3711AD951F40059A8AB /* ArticleViewController.h */,
+				A6A7C3721AD951F40059A8AB /* ArticleViewController.m */,
+				A6A7C37E1AD9570D0059A8AB /* FirebaseManager.h */,
+				A6A7C37F1AD9570D0059A8AB /* FirebaseManager.m */,
+				A6A7C3831AD9900B0059A8AB /* CategoryTableViewController.h */,
+				A6A7C3841AD9900B0059A8AB /* CategoryTableViewController.m */,
+			);
+			path = QarsaniOS;
+			sourceTree = "<group>";
+		};
+		A6A7C3431AD949230059A8AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6A7C3981AD9CA230059A8AB /* Catagories.png */,
+				A6A7C3921AD9BDA20059A8AB /* eyepatch_olive.png */,
+				A6A7C3931AD9BDA20059A8AB /* eyepatch2_gray.png */,
+				A6A7C3941AD9BDA20059A8AB /* eyepatch3_red.png */,
+				A6A7C38D1AD995570059A8AB /* Trending.png */,
+				A6A7C3871AD993200059A8AB /* back arrow.png */,
+				A6A7C3811AD97FE90059A8AB /* MonacleIcon.jpg */,
+				A6A7C36F1AD951930059A8AB /* Firebase.framework */,
+				A6A7C3441AD949230059A8AB /* Info.plist */,
+				A6A7C3451AD949230059A8AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6A7C35C1AD949230059A8AB /* QarsaniOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A7C35F1AD949230059A8AB /* QarsaniOSTests.m */,
+				A6A7C35D1AD949230059A8AB /* Supporting Files */,
+			);
+			path = QarsaniOSTests;
+			sourceTree = "<group>";
+		};
+		A6A7C35D1AD949230059A8AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6A7C35E1AD949230059A8AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A7C33F1AD949230059A8AB /* QarsaniOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A7C3631AD949230059A8AB /* Build configuration list for PBXNativeTarget "QarsaniOS" */;
+			buildPhases = (
+				A6A7C33C1AD949230059A8AB /* Sources */,
+				A6A7C33D1AD949230059A8AB /* Frameworks */,
+				A6A7C33E1AD949230059A8AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QarsaniOS;
+			productName = QarsaniOS;
+			productReference = A6A7C3401AD949230059A8AB /* QarsaniOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6A7C3581AD949230059A8AB /* QarsaniOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A7C3661AD949230059A8AB /* Build configuration list for PBXNativeTarget "QarsaniOSTests" */;
+			buildPhases = (
+				A6A7C3551AD949230059A8AB /* Sources */,
+				A6A7C3561AD949230059A8AB /* Frameworks */,
+				A6A7C3571AD949230059A8AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A7C35B1AD949230059A8AB /* PBXTargetDependency */,
+			);
+			name = QarsaniOSTests;
+			productName = QarsaniOSTests;
+			productReference = A6A7C3591AD949230059A8AB /* QarsaniOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A7C3381AD949230059A8AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = PBC;
+				TargetAttributes = {
+					A6A7C33F1AD949230059A8AB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A6A7C3581AD949230059A8AB = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A6A7C33F1AD949230059A8AB;
+					};
+				};
+			};
+			buildConfigurationList = A6A7C33B1AD949230059A8AB /* Build configuration list for PBXProject "QarsaniOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6A7C3371AD949230059A8AB;
+			productRefGroup = A6A7C3411AD949230059A8AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A7C33F1AD949230059A8AB /* QarsaniOS */,
+				A6A7C3581AD949230059A8AB /* QarsaniOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A7C33E1AD949230059A8AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A7C34F1AD949230059A8AB /* Main.storyboard in Resources */,
+				A6A7C38A1AD993200059A8AB /* back arrow.png in Resources */,
+				A6A7C3541AD949230059A8AB /* LaunchScreen.xib in Resources */,
+				A6A7C3821AD97FE90059A8AB /* MonacleIcon.jpg in Resources */,
+				A6A7C3511AD949230059A8AB /* Images.xcassets in Resources */,
+				A6A7C3971AD9BDA20059A8AB /* eyepatch3_red.png in Resources */,
+				A6A7C3951AD9BDA20059A8AB /* eyepatch_olive.png in Resources */,
+				A6A7C38F1AD995570059A8AB /* Trending.png in Resources */,
+				A6A7C3961AD9BDA20059A8AB /* eyepatch2_gray.png in Resources */,
+				A6A7C3991AD9CA230059A8AB /* Catagories.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A7C3571AD949230059A8AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A7C33C1AD949230059A8AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A7C36B1AD94E180059A8AB /* HeaderTableViewCell.m in Sources */,
+				A6A7C34C1AD949230059A8AB /* ViewController.m in Sources */,
+				A6A7C3491AD949230059A8AB /* AppDelegate.m in Sources */,
+				A6A7C3461AD949230059A8AB /* main.m in Sources */,
+				A6A7C3801AD9570D0059A8AB /* FirebaseManager.m in Sources */,
+				A6A7C3851AD9900B0059A8AB /* CategoryTableViewController.m in Sources */,
+				A6A7C36E1AD94E220059A8AB /* NonHeaderTableViewCell.m in Sources */,
+				A6A7C3731AD951F40059A8AB /* ArticleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A7C3551AD949230059A8AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A7C3601AD949230059A8AB /* QarsaniOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6A7C35B1AD949230059A8AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A7C33F1AD949230059A8AB /* QarsaniOS */;
+			targetProxy = A6A7C35A1AD949230059A8AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6A7C34D1AD949230059A8AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A7C34E1AD949230059A8AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6A7C3521AD949230059A8AB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A7C3531AD949230059A8AB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6A7C3611AD949230059A8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6A7C3621AD949230059A8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A7C3641AD949230059A8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QarsaniOS",
+				);
+				INFOPLIST_FILE = QarsaniOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6A7C3651AD949230059A8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QarsaniOS",
+				);
+				INFOPLIST_FILE = QarsaniOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A6A7C3671AD949230059A8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QarsaniOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QarsaniOS.app/QarsaniOS";
+			};
+			name = Debug;
+		};
+		A6A7C3681AD949230059A8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QarsaniOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QarsaniOS.app/QarsaniOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A7C33B1AD949230059A8AB /* Build configuration list for PBXProject "QarsaniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A7C3611AD949230059A8AB /* Debug */,
+				A6A7C3621AD949230059A8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A7C3631AD949230059A8AB /* Build configuration list for PBXNativeTarget "QarsaniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A7C3641AD949230059A8AB /* Debug */,
+				A6A7C3651AD949230059A8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6A7C3661AD949230059A8AB /* Build configuration list for PBXNativeTarget "QarsaniOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A7C3671AD949230059A8AB /* Debug */,
+				A6A7C3681AD949230059A8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A7C3381AD949230059A8AB /* Project object */;
+}

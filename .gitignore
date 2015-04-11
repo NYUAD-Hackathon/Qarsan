@@ -10,3 +10,10 @@ android-app/platforms/android/.gradle/2.3/taskArtifacts/cache.properties
 *.bin
 
 android-app/platforms/android/.gradle/2.3/taskArtifacts/cache.properties.lock
+
+QarsaniOS/QarsaniOS.xcodeproj/project.xcworkspace/xcuserdata/*
+
+QarsaniOS/QarsaniOS.xcodeproj/xcuserdata/*
+QarsaniOS/QarsaniOS.xcodeproj/project.xcworkspace/xcuserdata/*
+
+QarsaniOS/build/*

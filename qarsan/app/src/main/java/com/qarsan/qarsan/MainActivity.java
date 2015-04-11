@@ -51,7 +51,7 @@ public class MainActivity extends ActionBarActivity {
             Bindings bindings=new Bindings(Bindings.Protocol.IPv4);
             master.listen(4001, 4001, bindings);
 
-            Peer[] nodes = createAndAttachNodes(master, 1);
+            Peer[] nodes = createAndAttachNodes(master, 10);
             bootstrap(master, nodes);
             examplePutGet(nodes);
             exampleAddGet(nodes);
@@ -87,7 +87,7 @@ public class MainActivity extends ActionBarActivity {
             Bindings bindings=new Bindings(Bindings.Protocol.IPv4);
             master.listen(4001, 4001, bindings);
 
-//            Peer[] nodes = createAndAttachNodes(master, 1);
+//            Peer[] nodes = createAndAttachNodes(master, 10);
 //            bootstrap(master, nodes);
 //            examplePutGet(nodes);
 //            exampleAddGet(nodes);

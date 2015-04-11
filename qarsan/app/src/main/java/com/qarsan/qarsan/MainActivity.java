@@ -26,6 +26,7 @@ import net.tomp2p.utils.*;
 import java.net.Inet4Address;
 import java.net.Inet6Address;
 import java.net.InetAddress;
+import java.net.InetSocketAddress;
 import java.util.*;
 import java.io.*;
 
@@ -37,36 +38,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         System.setProperty("java.net.preferIPv6Addresses", "false");
 
-        Peer master = null;
-        try
-        {
-            //If 0.0.0.0 then we want to set up a default instance
-            /*if(ip.equals("0.0.0.0")) {
-                master = new Peer(new Number160(rnd));
-            } else {
-                //We were actually passed in an IP to connect to
-                master = new Peer(new Number160(ip));
-            }*/
-            master = new Peer(new Number160(rnd));
-            Bindings bindings=new Bindings(Bindings.Protocol.IPv4);
-            master.listen(4001, 4001, bindings);
 
-            Peer[] nodes = createAndAttachNodes(master, 10);
-            bootstrap(master, nodes);
-            examplePutGet(nodes);
-            exampleAddGet(nodes);
-        }
-        catch (Throwable e)
-        {
-            Log.wtf("tomp2p", e);
-            e.printStackTrace();
-        }
-        finally
-        {
-            if (master != null) {
-                master.shutdown();
-            }
-        }
     }
 
 
@@ -74,23 +46,21 @@ public class MainActivity extends ActionBarActivity {
         EditText ipaddress = (EditText)findViewById(R.id.editText);
         String ip = ipaddress.getText().toString();
         Peer master = null;
-
+        InetSocketAddress bootstrapIP = null;
         try
         {
-            //If 0.0.0.0 then we want to set up a default instance
-            if(ip.equals("0.0.0.0")) {
-                master = new Peer(new Number160(rnd));
-            } else {
-                //We were actually passed in an IP to connect to
-                master = new Peer(new Number160(ip));
-            }
+            master = new Peer(new Number160(rnd));
             Bindings bindings=new Bindings(Bindings.Protocol.IPv4);
             master.listen(4001, 4001, bindings);
 
-//            Peer[] nodes = createAndAttachNodes(master, 10);
-//            bootstrap(master, nodes);
-//            examplePutGet(nodes);
-//            exampleAddGet(nodes);
+            //If 0.0.0.0 then we want to set up a default instance
+            if(ip.equals("0.0.0.0")) {
+            } else {
+                //We were actually passed in an IP to connect to
+                InetAddress ipaddr= InetAddress.getByName(ip);
+                bootstrapIP = new InetSocketAddress(ipaddr,4001);
+                master.bootstrap(bootstrapIP);
+            }
         }
         catch (Throwable e)
         {
@@ -145,31 +115,6 @@ public class MainActivity extends ActionBarActivity {
         System.out.println("got: " + new String(d2.getData(),d2.getOffset(),d2.getLength()) + " ("
                 + futureDHT.isSuccess() + ")");
     }
-
-    private static Peer[] createAndAttachNodes(Peer master, int nr) throws Exception
-    {
-        Peer[] nodes = new Peer[nr];
-        nodes[0] = master;
-        for (int i = 1; i < nr; i++)
-        {
-            nodes[i] = new Peer(new Number160(rnd));
-            nodes[i].listen(master);
-        }
-        return nodes;
-    }
-
-    private static void bootstrap(Peer master, Peer[] nodes)
-    {
-        List<FutureBootstrap> futures = new ArrayList<FutureBootstrap>();
-        for (int i = 1; i < nodes.length; i++)
-        {
-            FutureBootstrap tmp = nodes[i].bootstrap(master.getPeerAddress());
-            futures.add(tmp);
-        }
-        for (FutureBootstrap future : futures)
-            future.awaitUninterruptibly();
-    }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

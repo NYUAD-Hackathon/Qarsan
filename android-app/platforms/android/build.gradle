@@ -201,6 +201,12 @@ android {
         targetCompatibility JavaVersion.VERSION_1_6
     }
 
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
+        exclude 'META-INF/NOTICE'
+    }
+
     if (cdvReleaseSigningPropertiesFile) {
         signingConfigs {
             release {
@@ -226,6 +232,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
     // SUB-PROJECT DEPENDENCIES START
+    compile 'com.firebase:firebase-client-android:2.2.3+'
     // SUB-PROJECT DEPENDENCIES END
 }
 

@@ -13,7 +13,6 @@ public class theBridge
 
     protected theBridge() {
         // Exists only to defeat instantiation.
-        Firebase.setAndroidContext(this);
         Firebase myFirebaseRef = new Firebase("https://brilliant-torch-1595.firebaseio.com/");
         myFirebaseRef.child("TEST").setValue("HI THERE");
 

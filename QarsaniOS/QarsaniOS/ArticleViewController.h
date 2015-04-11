@@ -10,6 +10,6 @@
 
 @interface ArticleViewController : UIViewController
 
--(void) initWithHeader: (NSString *) header andArticleText:(NSString *)articleText;
+-(void) initWithHeader: (NSString *) header andArticleText:(NSString *)articleText andImage:(UIImage*) image;
 
 @end

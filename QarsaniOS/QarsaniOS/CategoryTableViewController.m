@@ -9,6 +9,7 @@
 #import "CategoryTableViewController.h"
 #import "FirebaseManager.h"
 #import "NonHeaderTableViewCell.h"
+#import "ArticleViewController.h"
 
 @interface CategoryTableViewController ()
 
@@ -79,6 +80,17 @@
   }
 }
 
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+  ArticleViewController* destinationViewController = (ArticleViewController *)segue.destinationViewController;
+  if (destinationViewController)
+  {
+    NonHeaderTableViewCell* senderCell = (NonHeaderTableViewCell *)sender;
+    if (sender) {
+      [destinationViewController initWithHeader:[senderCell getHeader] andArticleText:[senderCell getArticle] andImage:[senderCell getImage]];
+    }
+  }
+}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
   

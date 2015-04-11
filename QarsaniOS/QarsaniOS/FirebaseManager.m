@@ -206,4 +206,26 @@
   return [_categoryNums[sectionTitle] intValue];
 }
 
+- (void)saveArticle:(NSString *)category headline: (NSString *)headline article: (NSString *)article
+{
+  //Get the number of articles currently
+  NSString * prependString = [NSString stringWithFormat:@"%i", _numStories];
+  NSString * categoryString = [prependString stringByAppendingString:@"Category"];
+  NSString * headlineString = [prependString stringByAppendingString:@"Headline"];
+  NSString * articleString = [prependString stringByAppendingString:@"Article"];
+  
+  Firebase *categoryRef = [myRootRef childByAppendingPath: categoryString];
+  [categoryRef setValue:category];
+  
+  Firebase *headlineRef = [myRootRef childByAppendingPath: headlineString];
+  [headlineRef setValue:headline];
+  
+  Firebase *articleRef = [myRootRef childByAppendingPath: articleString];
+  [articleRef setValue:article];
+  
+  //Finally, update the number of items in the store
+  Firebase *numArticlesRef = [myRootRef childByAppendingPath: @"numArticles"];
+  [numArticlesRef setValue:[NSString stringWithFormat:@"%i", _numStories +1 ]];
+}
+
 @end

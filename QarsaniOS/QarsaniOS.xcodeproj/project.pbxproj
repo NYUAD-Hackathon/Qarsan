@@ -32,6 +32,7 @@
 		A6A7C3961AD9BDA20059A8AB /* eyepatch2_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C3931AD9BDA20059A8AB /* eyepatch2_gray.png */; };
 		A6A7C3971AD9BDA20059A8AB /* eyepatch3_red.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C3941AD9BDA20059A8AB /* eyepatch3_red.png */; };
 		A6A7C3991AD9CA230059A8AB /* Catagories.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C3981AD9CA230059A8AB /* Catagories.png */; };
+		A6A7C39C1AD9CCD50059A8AB /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A7C39B1AD9CCD50059A8AB /* ComposeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		A6A7C3931AD9BDA20059A8AB /* eyepatch2_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyepatch2_gray.png; sourceTree = "<group>"; };
 		A6A7C3941AD9BDA20059A8AB /* eyepatch3_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyepatch3_red.png; sourceTree = "<group>"; };
 		A6A7C3981AD9CA230059A8AB /* Catagories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Catagories.png; sourceTree = "<group>"; };
+		A6A7C39A1AD9CCD50059A8AB /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		A6A7C39B1AD9CCD50059A8AB /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,8 @@
 				A6A7C37F1AD9570D0059A8AB /* FirebaseManager.m */,
 				A6A7C3831AD9900B0059A8AB /* CategoryTableViewController.h */,
 				A6A7C3841AD9900B0059A8AB /* CategoryTableViewController.m */,
+				A6A7C39A1AD9CCD50059A8AB /* ComposeViewController.h */,
+				A6A7C39B1AD9CCD50059A8AB /* ComposeViewController.m */,
 			);
 			path = QarsaniOS;
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 				A6A7C36B1AD94E180059A8AB /* HeaderTableViewCell.m in Sources */,
 				A6A7C34C1AD949230059A8AB /* ViewController.m in Sources */,
 				A6A7C3491AD949230059A8AB /* AppDelegate.m in Sources */,
+				A6A7C39C1AD9CCD50059A8AB /* ComposeViewController.m in Sources */,
 				A6A7C3461AD949230059A8AB /* main.m in Sources */,
 				A6A7C3801AD9570D0059A8AB /* FirebaseManager.m in Sources */,
 				A6A7C3851AD9900B0059A8AB /* CategoryTableViewController.m in Sources */,
@@ -504,6 +510,7 @@
 				A6A7C3651AD949230059A8AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6A7C3661AD949230059A8AB /* Build configuration list for PBXNativeTarget "QarsaniOSTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +519,7 @@
 				A6A7C3681AD949230059A8AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

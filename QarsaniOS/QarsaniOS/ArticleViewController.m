@@ -13,19 +13,22 @@
 {
   NSString *_header;
   NSString *_article;
+  UIImage *_image;
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *HeaderLabel;
 @property (weak, nonatomic) IBOutlet UITextView *ArticleLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *eyePatchImage;
 
 @end
 
 @implementation ArticleViewController
 
--(void) initWithHeader: (NSString *) header andArticleText:(NSString *)articleText
+-(void) initWithHeader: (NSString *) header andArticleText:(NSString *)articleText andImage:(UIImage *)image
 {
   _header = header;
   _article = articleText;
+  _image = image;
 }
 
 - (void)viewDidLoad {
@@ -34,6 +37,8 @@
   
   _ArticleLabel.text = _article;
   _HeaderLabel.text = _header;
+  _ArticleLabel.editable = NO;
+  _eyePatchImage.image = _image;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -35,6 +35,8 @@
 
 - (int)getIndexForSection:(int)section andRow:(int)row;
 
+- (void)saveArticle:(NSString *)category headline: (NSString *)headline article: (NSString *)article;
+
 @end
 
 #endif

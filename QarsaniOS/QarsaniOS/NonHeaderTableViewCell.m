@@ -49,4 +49,9 @@
   return _article;
 }
 
+-(UIImage *) getImage
+{
+  return self.CategoryImage.image;
+}
+
 @end

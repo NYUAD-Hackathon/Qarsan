@@ -19,6 +19,7 @@
 -(void) setHeadline:(NSString *)headline andArticle:(NSString *) article andCategory:(NSString *)category;
 -(NSString *) getHeader;
 -(NSString *) getArticle;
+-(UIImage *) getImage;
 
 @end
 

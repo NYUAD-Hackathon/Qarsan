@@ -21,7 +21,6 @@
   UITabBarController *tabController = navController.viewControllers[0];
   UITableViewController * tableController = tabController.viewControllers[0];
   [tableController.tableView reloadData];
-  NSLog(@"Here");
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -43,6 +42,13 @@
   */
   [[FirebaseManager sharedManager] setDelegate: self];
   [[FirebaseManager sharedManager] getNumberOfStories];
+  
+  
+  UIBarButtonItem *addNewButton = [[UIBarButtonItem alloc]
+                                   initWithBarButtonSystemItem:UIBarButtonSystemItemCamera target:self action:@selector(addNewPost)];
+  
+  navController.navigationItem.rightBarButtonItem = addNewButton;
+  
   return YES;
 }
 

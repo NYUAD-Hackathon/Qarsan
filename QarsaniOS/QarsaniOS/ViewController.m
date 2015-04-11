@@ -14,6 +14,7 @@
 //#import <Firebase/Firebase.h>
 #import "FirebaseManager.h"
 #import "ArticleViewController.h"
+#import "ComposeViewController.h"
 
 @interface ViewController ()
 
@@ -30,11 +31,22 @@
   self.tableView.rowHeight = UITableViewAutomaticDimension;
   
   [self.tableView setContentInset:UIEdgeInsetsMake(80,0,0,0)];
+  
+  /*UIBarButtonItem *addNewButton = [[UIBarButtonItem alloc]
+                                   initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addNewPost)];
+  
+  self.navigationItem.rightBarButtonItem = addNewButton;*/
 }
 
 - (void)didReceiveMemoryWarning {
   [super didReceiveMemoryWarning];
   // Dispose of any resources that can be recreated.
+}
+
+-(void) addNewPost
+{
+  //Perform segue here
+  [self.navigationController pushViewController:[[ComposeViewController alloc] init] animated:YES];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -59,7 +71,7 @@
   {
     NonHeaderTableViewCell* senderCell = (NonHeaderTableViewCell *)sender;
     if (sender) {
-      [destinationViewController initWithHeader:[senderCell getHeader] andArticleText:[senderCell getArticle]];
+      [destinationViewController initWithHeader:[senderCell getHeader] andArticleText:[senderCell getArticle] andImage:[senderCell getImage]];
     }
   }
 }

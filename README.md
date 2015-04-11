@@ -2,8 +2,6 @@
 
 a _bit_ of truth
 
-[![Join the chat at https://gitter.im/NYUAD-Hackathon/Qarsan](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/NYUAD-Hackathon/Qarsan?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 ### problem
 
 [Freedom of the press promotes better governance](http://www.gsdrc.org/go/display&type=Document&id=3719), but as long as media is centralized, it is susceptible to takedown.

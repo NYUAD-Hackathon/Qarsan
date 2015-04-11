@@ -17,3 +17,5 @@ Qarsan means "pirate” in Arabic; and this app is about creating a pirate news 
 
 
 ![Arrr Matey](https://raw.githubusercontent.com/NYUAD-Hackathon/Qarsan/master/img/logo.png)
+
+Download logo as a `.png` and [fat file here](https://www.dropbox.com/sh/zq0qj2xuhgxre38/AAB7cbrFnly7WG2eSlp6PJWwa?dl=0)

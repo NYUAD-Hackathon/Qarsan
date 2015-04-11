@@ -15,6 +15,12 @@ Qarsan is a decentralized mobile app based off bittorent and Tor, allowing citiz
 
 Qarsan means "pirate” in Arabic; and this app is about creating a pirate news source for citizen journalists. It leverages the DHT primitive and BitTorrent to create a peer-to-peer network for authorship and validation of user-generated journalism.
 
+### presentation requirements
+
+ * mic
+ * mac (it's a keynote presentation)
+ * mobile android phone to demo on?
+
 
 ![Arrr Matey](https://raw.githubusercontent.com/NYUAD-Hackathon/Qarsan/master/img/logo.png)
 

@@ -36,19 +36,58 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         System.setProperty("java.net.preferIPv6Addresses", "false");
+
+        Peer master = null;
+        try
+        {
+            //If 0.0.0.0 then we want to set up a default instance
+            /*if(ip.equals("0.0.0.0")) {
+                master = new Peer(new Number160(rnd));
+            } else {
+                //We were actually passed in an IP to connect to
+                master = new Peer(new Number160(ip));
+            }*/
+            master = new Peer(new Number160(rnd));
+            Bindings bindings=new Bindings(Bindings.Protocol.IPv4);
+            master.listen(4001, 4001, bindings);
+
+            Peer[] nodes = createAndAttachNodes(master, 1);
+            bootstrap(master, nodes);
+            examplePutGet(nodes);
+            exampleAddGet(nodes);
+        }
+        catch (Throwable e)
+        {
+            Log.wtf("tomp2p", e);
+            e.printStackTrace();
+        }
+        finally
+        {
+            if (master != null) {
+                master.shutdown();
+            }
+        }
     }
+
 
     public void onClickButton(View view){
         EditText ipaddress = (EditText)findViewById(R.id.editText);
         String ip = ipaddress.getText().toString();
         Peer master = null;
+
         try
         {
-            master = new Peer(new Number160(rnd));
+            //If 0.0.0.0 then we want to set up a default instance
+            if(ip.equals("0.0.0.0")) {
+                master = new Peer(new Number160(rnd));
+            } else {
+                //We were actually passed in an IP to connect to
+                master = new Peer(new Number160(ip));
+            }
             Bindings bindings=new Bindings(Bindings.Protocol.IPv4);
             master.listen(4001, 4001, bindings);
 
-//            Peer[] nodes = createAndAttachNodes(master, 10);
+//            Peer[] nodes = createAndAttachNodes(master, 1);
 //            bootstrap(master, nodes);
 //            examplePutGet(nodes);
 //            exampleAddGet(nodes);
@@ -64,9 +103,8 @@ public class MainActivity extends ActionBarActivity {
                 master.shutdown();
             }
         }
-
-
     }
+
     public static void examplePutGet(Peer[] nodes) throws IOException
     {
         Number160 nr = new Number160(rnd);

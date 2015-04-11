@@ -3,10 +3,15 @@
 buildscript {
     repositories {
         jcenter()
+        maven {
+            url "http://tomp2p.net/dev/mvn/"
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:1.1.0'
 
+        //compile ‚net.tomp2p:tomp2p-core:5.0-Beta5‘
+        //compile ‚net.tomp2p:tomp2p-dht:5.0-Beta5‘
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }

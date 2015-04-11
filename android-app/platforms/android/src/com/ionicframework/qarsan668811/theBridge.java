@@ -2,10 +2,11 @@ package com.ionicframework.qarsan668811;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
+import java.util.*;
 
 public class theBridge
 {
-    private static final int useFirebase = 1;
+    private static final boolean useFirebase = true;
 
     private static theBridge singleton = null;
 
@@ -14,14 +15,14 @@ public class theBridge
     }
     public static theBridge getInstance() {
         if(singleton == null) {
-            singleton = new Singleton();
+            singleton = new theBridge();
         }
         return singleton;
     }
 
     public void addArticle(String article, String articleTitle)
     {
-        if (useFirebase)
+        if (this.useFirebase)
         {
 
         }
@@ -29,17 +30,19 @@ public class theBridge
 
     public String getFullArticle(int id)
     {
-        if (useFirebase)
+        if (this.useFirebase)
         {
 
         }
+        return "";
     }
 
-    public Array<storyClass> getArticleList()
+    public ArrayList<storyClass> getArticleList()
     {
-        if (useFirebase)
+        if (this.useFirebase)
         {
 
         }
+        return null;
     }
 }

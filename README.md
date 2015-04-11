@@ -1,13 +1,8 @@
 ## qarsan
 
-<<<<<<< HEAD
-=======
-[![Join the chat at https://gitter.im/NYUAD-Hackathon/qarsan](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/NYUAD-Hackathon/qarsan?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
->>>>>>> 5e6d7cdf19cbb7052d86ea882d2c503318851db3
 a _bit_ of truth
 
-[![Join the chat at https://gitter.im/NYUAD-Hackathon/Qarsan](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/NYUAD-Hackathon/Qarsan?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/NYUAD-Hackathon/qarsan](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/NYUAD-Hackathon/qarsan?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### problem
 

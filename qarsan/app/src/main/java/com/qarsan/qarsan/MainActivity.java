@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
 
 import net.tomp2p.p2p.*;
 import net.tomp2p.p2p.config.*;
@@ -29,22 +31,27 @@ import java.io.*;
 
 public class MainActivity extends ActionBarActivity {
     final private static Random rnd = new Random(42L);
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         System.setProperty("java.net.preferIPv6Addresses", "false");
+    }
+
+    public void onClickButton(View view){
+        EditText ipaddress = (EditText)findViewById(R.id.editText);
+        String ip = ipaddress.getText().toString();
         Peer master = null;
         try
         {
             master = new Peer(new Number160(rnd));
             Bindings bindings=new Bindings(Bindings.Protocol.IPv4);
             master.listen(4001, 4001, bindings);
-            Peer[] nodes = createAndAttachNodes(master, 10);
-            bootstrap(master, nodes);
-            examplePutGet(nodes);
-            exampleAddGet(nodes);
+
+//            Peer[] nodes = createAndAttachNodes(master, 10);
+//            bootstrap(master, nodes);
+//            examplePutGet(nodes);
+//            exampleAddGet(nodes);
         }
         catch (Throwable e)
         {
@@ -57,8 +64,9 @@ public class MainActivity extends ActionBarActivity {
                 master.shutdown();
             }
         }
-    }
 
+
+    }
     public static void examplePutGet(Peer[] nodes) throws IOException
     {
         Number160 nr = new Number160(rnd);

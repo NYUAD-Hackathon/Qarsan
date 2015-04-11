@@ -19,8 +19,20 @@ android {
     }
 }
 
+
+repositories {
+    maven {
+        url "http://tomp2p.net/dev/mvn/"
+    }
+}
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.0.0'
-    compile files('libs/TomP2P-4.0.7.jar')
+    //compile files('libs/TomP2P-4.0.7.jar')
+    //compile files('libs/slf4j-android-1.7.12.jar')
+    //compile files('libs/slf4j-api-1.7.12.jar')
+    //compile files('libs/netty-all-4.0.27.Final.jar')
+    //compile 'net.tomp2p:tomp2p-core:4.0.7'
+    compile 'net.tomp2p:TomP2P:4.0.7'
+
 }

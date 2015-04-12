@@ -111,10 +111,12 @@ app.controller("articleListController", function ($rootScope,$scope,$firebaseObj
       $rootScope.syncObject = syncObject;
       for (var count = 0;count < syncObject["numArticles"];count++){
         $scope.headlineArray.push(count+"Headline");
+        console.log($scope.headlineArray);
       }
 
       $scope.headlineArray.forEach(function(element, index){
-        $scope.headlines[element[0]] = syncObject[element];
+        $scope.headlines[element.replace(/\D/g, '')] = syncObject[element];
+        console.log($scope.headlines);
       });
     });
 
@@ -123,7 +125,7 @@ app.controller("articleListController", function ($rootScope,$scope,$firebaseObj
         $scope.headlineArray.push(count+"Headline");
       }
       $scope.headlineArray.forEach(function(element, index){
-        $scope.headlines[element[0]] = syncObject[element];
+        $scope.headlines[element.replace(/\D/g, '')] = syncObject[element];
       });
     });
   };

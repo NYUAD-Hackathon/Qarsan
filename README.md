@@ -4,7 +4,7 @@ a _bit_ of truth
 
 [![Join the chat at https://gitter.im/NYUAD-Hackathon/qarsan](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/NYUAD-Hackathon/qarsan?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-<img src="https://raw.githubusercontent.com/NYUAD-Hackathon/Qarsan/master/img/logo.png" align="right" alt="arrrg matey" margin="2px" height="250" width="325">
+[<img src="https://raw.githubusercontent.com/NYUAD-Hackathon/Qarsan/master/img/logo-3.png" align="right" alt="arrrg matey" margin="2px" height="250" width="325">](https://www.dropbox.com/sh/zq0qj2xuhgxre38/AAB7cbrFnly7WG2eSlp6PJWwa?dl=0)
 
 Download logo as a `.png` and [fat file here](https://www.dropbox.com/sh/zq0qj2xuhgxre38/AAB7cbrFnly7WG2eSlp6PJWwa?dl=0).
 
@@ -16,6 +16,7 @@ Download logo as a `.png` and [fat file here](https://www.dropbox.com/sh/zq0qj2x
 
 **Qarsan** is a decentralized mobile app based off BitTorrent and Tor, allowing citizen reporting to a news portal that is hosted by everyone who installs the app. Thus, it is uncensorable, un-DDoS-able and will amplify the true voice of the population.
 
+Link to pitch deck [here](https://docs.google.com/presentation/d/10_T974yCoe16eWtwe8IB_3pDfLxA0QsiVwbbCS-Wi74/edit?usp=sharing).
 
 ### name
 
@@ -68,6 +69,6 @@ Qarsan قرصان means "pirate” in Arabic; and this app is about creating a p
 |----------------------------------------------|-------------|-------------|-------------------------------------------------|
 | Seth Thompson | American | Google | [s3ththompson](https://github.com/s3ththompson) |
 | Aurelia Moser | American | CartoDB | [auremoser](https://github.com/auremoser) |
-| Rafael Harutyunyan - Armenian, Jeltee, rahar | Armenian | Jeltee | [rahar](https://github.com/rahar) |
+| Rafael Harutyunyan | Armenian | Jeltee | [rahar](https://github.com/rahar) |
 
 

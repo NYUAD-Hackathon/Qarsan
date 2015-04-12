@@ -21,6 +21,12 @@ Download logo as a `.png` and [fat file here](https://www.dropbox.com/sh/zq0qj2x
 Qarsan means "pirate” in Arabic; and this app is about creating a pirate news source for citizen journalists. It leverages the DHT primitive and BitTorrent to create a peer-to-peer network for authorship and validation of user-generated journalism.
 
 
+<img src="https://raw.githubusercontent.com/NYUAD-Hackathon/Qarsan/master/img/img1.png" align="center" alt="arrrg matey" margin="2px" height="350" width="200">
+<img src="https://raw.githubusercontent.com/NYUAD-Hackathon/Qarsan/master/img/img2.png" align="center" "alt="arrrg matey" margin="4px" height="350" width="200">
+<img src="https://raw.githubusercontent.com/NYUAD-Hackathon/Qarsan/master/img/img4.png" align="center" alt="arrrg matey" margin="2px" height="350" width="200">
+<img src="https://raw.githubusercontent.com/NYUAD-Hackathon/Qarsan/master/img/img3.png" align="center" alt="arrrg matey" margin="2px" height="350" width="200">
+
+
 ### presentation requirements
 
  * mic
@@ -32,6 +38,7 @@ Qarsan means "pirate” in Arabic; and this app is about creating a pirate news 
 ### stack
 
 #### iOS
+* native
 * Objective-C
 * Firebase
 

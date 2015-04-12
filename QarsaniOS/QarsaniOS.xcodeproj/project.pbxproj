@@ -33,6 +33,7 @@
 		A6A7C3971AD9BDA20059A8AB /* eyepatch3_red.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C3941AD9BDA20059A8AB /* eyepatch3_red.png */; };
 		A6A7C3991AD9CA230059A8AB /* Catagories.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C3981AD9CA230059A8AB /* Catagories.png */; };
 		A6A7C39C1AD9CCD50059A8AB /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A7C39B1AD9CCD50059A8AB /* ComposeViewController.m */; };
+		A6A7C39E1ADA39490059A8AB /* SplashScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6A7C39D1ADA39490059A8AB /* SplashScreen.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		A6A7C3981AD9CA230059A8AB /* Catagories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Catagories.png; sourceTree = "<group>"; };
 		A6A7C39A1AD9CCD50059A8AB /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
 		A6A7C39B1AD9CCD50059A8AB /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		A6A7C39D1ADA39490059A8AB /* SplashScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SplashScreen.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 		A6A7C3431AD949230059A8AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A6A7C39D1ADA39490059A8AB /* SplashScreen.jpg */,
 				A6A7C3981AD9CA230059A8AB /* Catagories.png */,
 				A6A7C3921AD9BDA20059A8AB /* eyepatch_olive.png */,
 				A6A7C3931AD9BDA20059A8AB /* eyepatch2_gray.png */,
@@ -243,6 +246,7 @@
 				TargetAttributes = {
 					A6A7C33F1AD949230059A8AB = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = TSLZ6U7CTT;
 					};
 					A6A7C3581AD949230059A8AB = {
 						CreatedOnToolsVersion = 6.2;
@@ -276,6 +280,7 @@
 			files = (
 				A6A7C34F1AD949230059A8AB /* Main.storyboard in Resources */,
 				A6A7C38A1AD993200059A8AB /* back arrow.png in Resources */,
+				A6A7C39E1ADA39490059A8AB /* SplashScreen.jpg in Resources */,
 				A6A7C3541AD949230059A8AB /* LaunchScreen.xib in Resources */,
 				A6A7C3821AD97FE90059A8AB /* MonacleIcon.jpg in Resources */,
 				A6A7C3511AD949230059A8AB /* Images.xcassets in Resources */,

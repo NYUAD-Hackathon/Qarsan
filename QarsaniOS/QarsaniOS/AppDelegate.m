@@ -21,6 +21,9 @@
   UITabBarController *tabController = navController.viewControllers[0];
   UITableViewController * tableController = tabController.viewControllers[0];
   [tableController.tableView reloadData];
+  
+  UITableViewController * tableController2 = tabController.viewControllers[1];
+  [tableController2.tableView reloadData];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

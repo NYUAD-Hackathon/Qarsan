@@ -30,7 +30,7 @@
   
   self.tableView.rowHeight = UITableViewAutomaticDimension;
   
-  [self.tableView setContentInset:UIEdgeInsetsMake(80,0,0,0)];
+  [self.tableView setContentInset:UIEdgeInsetsMake(63,0,0,0)];
     //[self.tableView setContentInset:UIEdgeInsetsMake(0,0,0,0)];
   
   /*UIBarButtonItem *addNewButton = [[UIBarButtonItem alloc]

@@ -20,7 +20,6 @@
 package com.ionicframework.qarsan668811;
 
 import android.os.Bundle;
-import com.firebase.client.*;
 import org.apache.cordova.*;
 
 public class MainActivity extends CordovaActivity
@@ -33,7 +32,6 @@ public class MainActivity extends CordovaActivity
 
         super.init();
 
-        Firebase.setAndroidContext(this);
         // Set by <content src="index.html" /> in config.xml
         loadUrl(launchUrl);
     }

@@ -14,7 +14,7 @@ Download logo as a `.png` and [fat file here](https://www.dropbox.com/sh/zq0qj2x
 
 ### description
 
-**Qarsan** is a decentralized mobile app based off bittorent and Tor, allowing citizen reporting to a news portal that is hosted by everyone who installs the app. Thus, it is uncensorable, un-DDoS-able and will amplify the true voice of the population.
+**Qarsan** is a decentralized mobile app based off BitTorrent and Tor, allowing citizen reporting to a news portal that is hosted by everyone who installs the app. Thus, it is uncensorable, un-DDoS-able and will amplify the true voice of the population.
 
 ### name
 

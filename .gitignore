@@ -1,7 +1,14 @@
 
 qarsan/app/src/main/java/com/qarsan/qarsan/MainActivity.java
 
-android-app/platforms/android/.idea/*
+android-app/platforms
 android-app/platforms/android/.idea/workspace.xml
 android-app/platforms
 *.bin
+
+QarsaniOS/QarsaniOS.xcodeproj/project.xcworkspace/xcuserdata/*
+
+QarsaniOS/QarsaniOS.xcodeproj/xcuserdata/*
+QarsaniOS/QarsaniOS.xcodeproj/project.xcworkspace/xcuserdata/*
+
+QarsaniOS/build/*

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>133987AF-403D-4E05-A96F-99B1748FD304</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QarsaniOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F1F04383BF1BD0AAA0660617715DD38D47CA6591</key>
+		<string>https://github.com/NYUAD-Hackathon/Qarsan.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QarsaniOS/QarsaniOS.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F1F04383BF1BD0AAA0660617715DD38D47CA6591</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/NYUAD-Hackathon/Qarsan.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F1F04383BF1BD0AAA0660617715DD38D47CA6591</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F1F04383BF1BD0AAA0660617715DD38D47CA6591</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Qarsan</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -4,7 +4,7 @@ a _bit_ of truth
 
 [![Join the chat at https://gitter.im/NYUAD-Hackathon/qarsan](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/NYUAD-Hackathon/qarsan?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-[<img src="https://raw.githubusercontent.com/NYUAD-Hackathon/Qarsan/master/img/logo-3.png" align="right" alt="arrrg matey" margin="2px" height="250" width="325">](https://www.dropbox.com/sh/zq0qj2xuhgxre38/AAB7cbrFnly7WG2eSlp6PJWwa?dl=0)
+[<img src="https://raw.githubusercontent.com/NYUAD-Hackathon/Qarsan/master/img/logo-4.png" align="right" alt="arrrg matey" margin="2px" height="250" width="325">](https://www.dropbox.com/sh/zq0qj2xuhgxre38/AAB7cbrFnly7WG2eSlp6PJWwa?dl=0)
 
 Download logo as a `.png` and [fat file here](https://www.dropbox.com/sh/zq0qj2xuhgxre38/AAB7cbrFnly7WG2eSlp6PJWwa?dl=0).
 

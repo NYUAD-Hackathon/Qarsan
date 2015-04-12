@@ -40,7 +40,7 @@
   _ArticleLabel.editable = NO;
   _eyePatchImage.image = _image;
 
-  
+  _HeaderLabel.numberOfLines = 2;
 }
 
 - (void)didReceiveMemoryWarning {

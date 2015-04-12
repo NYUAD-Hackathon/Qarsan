@@ -16,6 +16,7 @@ Download logo as a `.png` and [fat file here](https://www.dropbox.com/sh/zq0qj2x
 
 **Qarsan** is a decentralized mobile app based off BitTorrent and Tor, allowing citizen reporting to a news portal that is hosted by everyone who installs the app. Thus, it is uncensorable, un-DDoS-able and will amplify the true voice of the population.
 
+
 ### name
 
 Qarsan قرصان ن means "pirate” in Arabic; and this app is about creating a pirate news source for citizen journalists. It leverages the DHT primitive and BitTorrent to create a peer-to-peer network for authorship and validation of user-generated journalism.
@@ -55,7 +56,7 @@ Qarsan قرصان ن means "pirate” in Arabic; and this app is about creating 
 |----------------------------------------------|-------------|-------------|-------------------------------------------------|
 | Muhammad Zaman | Pakistani/American | LUMS | [hambudi](https://github.com/hambudi) |
 | Asyrique Thevendran | Malaysian | NYU Abu Dhabi | [asyriqueat](https://github.com/asyriqueat) |
-| Michael Weingert | Canadian | Stanford | [mpwienge](https://github.com/mpweinge) |
+| Michael Weingert | Canadian | Stanford | [mpweinge](https://github.com/mpweinge) |
 | Amn Rahman | Pakistani | MIT | [amnrahman](https://github.com/amnrahman) |
 | Brooke Hopkins | American | NYU Abu Dhabi | [bnhopkins](https://github.com/bnhopkins) |
 | Ya-Chen Chang | Taiwanese | Masdar Institute of Science and Technology | [changyc](https://github.com/changyc) |

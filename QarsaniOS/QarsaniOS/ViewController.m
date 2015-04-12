@@ -31,6 +31,7 @@
   self.tableView.rowHeight = UITableViewAutomaticDimension;
   
   [self.tableView setContentInset:UIEdgeInsetsMake(80,0,0,0)];
+    //[self.tableView setContentInset:UIEdgeInsetsMake(0,0,0,0)];
   
   /*UIBarButtonItem *addNewButton = [[UIBarButtonItem alloc]
                                    initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addNewPost)];
@@ -64,6 +65,11 @@
   }
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+  return 44;
+}
+
+
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
   ArticleViewController* destinationViewController = (ArticleViewController *)segue.destinationViewController;
@@ -72,6 +78,8 @@
     NonHeaderTableViewCell* senderCell = (NonHeaderTableViewCell *)sender;
     if (sender) {
       [destinationViewController initWithHeader:[senderCell getHeader] andArticleText:[senderCell getArticle] andImage:[senderCell getImage]];
+      
+      self.title = @"Home";
     }
   }
 }

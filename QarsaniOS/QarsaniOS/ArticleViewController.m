@@ -39,6 +39,8 @@
   _HeaderLabel.text = _header;
   _ArticleLabel.editable = NO;
   _eyePatchImage.image = _image;
+
+  
 }
 
 - (void)didReceiveMemoryWarning {

@@ -11,7 +11,7 @@
             <objects>
                 <tableViewController id="q06-cI-4ei" customClass="ViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="66z-Mq-e32">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -74,6 +74,7 @@
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstAttribute="trailingMargin" secondItem="g9t-JU-qWo" secondAttribute="trailing" constant="5" id="KyA-Uh-BxN"/>
                                         <constraint firstItem="Z45-jp-hkY" firstAttribute="top" secondItem="Kr7-M9-xjK" secondAttribute="topMargin" constant="5" id="LND-Xi-zNn"/>
                                         <constraint firstItem="g9t-JU-qWo" firstAttribute="leading" secondItem="Z45-jp-hkY" secondAttribute="trailing" constant="15" id="Nbb-Mp-D4l"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="g9t-JU-qWo" secondAttribute="bottom" constant="10" id="VOZ-Aw-wft"/>
@@ -305,7 +306,7 @@
             </objects>
             <point key="canvasLocation" x="534" y="-547"/>
         </scene>
-        <!--Article View Controller-->
+        <!--Qarsan-->
         <scene sceneID="GY6-lT-DkU">
             <objects>
                 <viewController id="sqA-8J-sin" customClass="ArticleViewController" sceneMemberID="viewController">
@@ -351,6 +352,7 @@
                             <constraint firstItem="O59-wz-Sa7" firstAttribute="leading" secondItem="rM2-X3-VJi" secondAttribute="trailing" constant="-6" id="lyX-4U-BON"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Qarsan" id="QA6-WP-vaj"/>
                     <connections>
                         <outlet property="ArticleLabel" destination="05W-AP-FOq" id="m88-yO-bfk"/>
                         <outlet property="HeaderLabel" destination="O59-wz-Sa7" id="Z3L-dK-VNn"/>

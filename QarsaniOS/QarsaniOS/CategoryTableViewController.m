@@ -88,6 +88,13 @@
     NonHeaderTableViewCell* senderCell = (NonHeaderTableViewCell *)sender;
     if (sender) {
       [destinationViewController initWithHeader:[senderCell getHeader] andArticleText:[senderCell getArticle] andImage:[senderCell getImage]];
+      
+      UIBarButtonItem *backButton = [[UIBarButtonItem alloc]
+                                     initWithTitle: @"Home"
+                                     style: UIBarButtonItemStyleBordered
+                                     target: nil action: nil];
+      
+      [self.navigationItem setBackBarButtonItem: backButton];
     }
   }
 }
@@ -119,6 +126,13 @@
   } else {
     return 80;
   }
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+  if (section == 2)
+    return 44;
+  else
+    return 0;
 }
 
 

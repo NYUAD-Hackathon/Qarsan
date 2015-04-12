@@ -1,0 +1,13 @@
+<ion-view title="Qarsan" ng-init="list()">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="(key, value) in categories">
+            <div class='item item-divider'>{{key}}</div>
+                <ion-item ng-repeat="(id, title) in value">
+                    <a href="#/tab/article2/{{id}}"><div>{{title}}</div></a>
+                </ion-item>
+            </ion-item>
+        </ion-list>
+        <a href="#/composearticle"><p>compose</p></a>
+    </ion-content>
+</ion-view>

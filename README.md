@@ -19,7 +19,18 @@ Qarsan means "pirate” in Arabic; and this app is about creating a pirate news 
 
  * mic
  * mac (it's a keynote presentation)
- * mobile android phone to demo on?
+ * android phone to demo on?
+ * iphone to demo on
+ * adapters for ios- AND android-to-projector demo
+
+### stack
+
+#### iOS
+* Objective-C
+* Firebase
+
+#### Android
+
 
 
 ![Arrr Matey](https://raw.githubusercontent.com/NYUAD-Hackathon/Qarsan/master/img/logo.png)

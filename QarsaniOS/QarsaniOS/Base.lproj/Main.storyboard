@@ -239,6 +239,7 @@
                                         <constraint firstItem="lmB-eX-Tj7" firstAttribute="leading" secondItem="20Q-4U-Q5p" secondAttribute="leadingMargin" constant="10" id="Mrf-fh-vqA"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="lmB-eX-Tj7" secondAttribute="bottom" constant="10" id="RLA-sN-NtJ"/>
                                         <constraint firstItem="pn7-cS-9xT" firstAttribute="top" secondItem="20Q-4U-Q5p" secondAttribute="topMargin" constant="10" id="uUj-WY-TD1"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="pn7-cS-9xT" secondAttribute="trailing" constant="5" id="yAE-Pa-6Xf"/>
                                         <constraint firstItem="pn7-cS-9xT" firstAttribute="leading" secondItem="lmB-eX-Tj7" secondAttribute="trailing" constant="20" id="yC6-zs-i6N"/>
                                         <constraint firstItem="lmB-eX-Tj7" firstAttribute="top" secondItem="20Q-4U-Q5p" secondAttribute="topMargin" constant="10" id="zIu-MJ-I2e"/>
                                     </constraints>
@@ -414,6 +415,6 @@
         <image name="Trending.png" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="x2V-is-JYA"/>
+        <segue reference="bJr-OH-xzB"/>
     </inferredMetricsTieBreakers>
 </document>
